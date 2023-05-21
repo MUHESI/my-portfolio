@@ -8,6 +8,7 @@
 
 .container-flex {
   display: flex;
+  flex-wrap: wrap;
 }
 html,
 body {
