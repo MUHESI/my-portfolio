@@ -9,14 +9,7 @@
 .container-flex {
   display: flex;
   flex-wrap: wrap;
-}
-html,
-body {
   width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: #2d5398;
 }
 
 body {
