@@ -80,7 +80,8 @@ export const projects = [
     title: "A login component responsive tailwind CSS ",
     description:
       "It works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file. It's fast, flexible, and reliable",
-    image: "/images/login.png",
+    image:
+      "https://res.cloudinary.com/chanel-muhesi/image/upload/v1685352793/porfolio/login_dk92gd.png",
     tags: ["Html", "JS", "Tailwind", "CSS"],
     source: "https://github.com/MUHESI/tailwind-login-component",
     visit: "https://github.com/MUHESI/tailwind-login-component",
