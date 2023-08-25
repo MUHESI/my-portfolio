@@ -16,9 +16,9 @@ import {
 } from "./TechnologiesStyles";
 
 const technologies = {
-  front: ["Reactjs", "Nextjs", "Typescript"],
-  back: ["Expresjs", "Nestjs", "MongoDB", "MySql", "PostreSQL", "Redis"],
-  UxIX: ["AdobeXD ", "Figma"],
+  front: ["Reactjs", "Nextjs", "Typescript", "Tailwind", "MUI"],
+  back: ["Nestjs", "Expresjs", "Typescript", "MongoDB", "MySql", "PostreSQL", "Redis"],
+  UxIX: ["AdobeXD ", "Figma", "Canva"],
 };
 
 const Technologies = () => (

@@ -18,16 +18,15 @@ export const Section = styled.section`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
-
     width: calc(100vw - 32px);
-    flex-direction: column;
-  }
+     flex-direction: column;
 `;
 
 export const SectionTitle = styled.h2`
-  font-weight: 800;
-  font-size: ${(props) => (props.main ? "65px" : "56px")};
+  font-weight: 700;
+  font-size: ${(props) => (props.main ? "65px" : "53px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
+  ${'' /* line-height: ${(props) => (props.main ? "68px" : "50px")}; */}
   width: max-content;
   max-width: 100%;
   background: linear-gradient(

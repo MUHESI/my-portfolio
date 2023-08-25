@@ -25,6 +25,9 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
+
+    </GridContainer>
+    <GridContainer>
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
