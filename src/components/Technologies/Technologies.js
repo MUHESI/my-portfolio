@@ -16,7 +16,7 @@ import {
 } from "./TechnologiesStyles";
 
 const technologies = {
-  front: ["Reactjs", "Nextjs", "Typescript", "Tailwind", "MUI"],
+  front: ["Reactjs", "Nextjs", "Typescript", "Tailwind", "Shadcn/ui", "MUI"],
   back: ["Nestjs", "Expresjs", "Typescript", "MongoDB", "MySql", "PostreSQL", "Redis"],
   UxIX: ["AdobeXD ", "Figma", "Canva"],
 };

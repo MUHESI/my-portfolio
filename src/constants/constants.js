@@ -1,5 +1,27 @@
 export const projects = [
   {
+    title: "Afiagap, 2023",
+    description:
+      "Afia gap, this platform operates in the health sector. It monitors alerts and gaps that investigators pass on to the partner organization",
+    image:
+      "https://res.cloudinary.com/chanel-muhesi/image/upload/v1701425152/porfolio/msedge_wc1sCejFMU_igxlmc.png",
+    tags: ["Typescript", "Vite", "Recoil", "Tailwind CSS", "Shadcn/ui"],
+    source: "https://afiagap.com/",
+    visit: "https://afiagap.com/",
+    id: 1,
+  },
+  {
+    title: "FSTA-BOT, 2023",
+    description:
+      "A chat bot that answers questions about ULPGL-GOMA, this university located in DRC, This chat bot will be useful for new students who want to know more about this university",
+    image:
+      "https://res.cloudinary.com/chanel-muhesi/image/upload/v1701425377/porfolio/msedge_EGXrQ1P3hQ_z0gy5o.png",
+    tags: ["Microsoft virtual agent", "Azure Open AI", "IA"],
+    source: "https://fsta-bot-front.vercel.app/",
+    visit: "https://fsta-bot-front.vercel.app/",
+    id: 13,
+  },
+  {
     title: "Acho-System, 2023-now",
     description:
       "AS is an IT platform that combines the functionalities of e-businesses commerce and fintech.",
