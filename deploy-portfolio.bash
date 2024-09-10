@@ -4,7 +4,7 @@ echo '==========================================================================
 echo '1. Move into privated-projects directory >> cd /root/apps/privated-projects'  
 echo '=================================================================================' 
 cd /root/apps/privated-projects/
-# school_cinquantenaire_api
+# cd /root/apps/privated-projects/portfolio
 
 #JOSUE ORG
 echo '===========================================================' 
