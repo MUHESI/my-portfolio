@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link rel="icon" type="image/svg+xml"
-            href="https://res.cloudinary.com/chanel-muhesi/image/upload/v1717158580/porfolio/SCHOOL_MANAGEMENT/classroom-2787754_640_xav0yv.jpg" />
+            href="https://res.cloudinary.com/chanel-muhesi/image/upload/v1685518784/porfolio/profile-pic_1_mndgvo.png" />
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         </Head>
         <body>
