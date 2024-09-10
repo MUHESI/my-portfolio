@@ -5,9 +5,8 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
 import { ButtonLink } from "../Picture/ShowPictureStyle";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <>
@@ -15,12 +14,10 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Hello there ! <br />
-          Call me MUHESI Moses
+          My name is MUHESI Moïse
         </SectionTitle>
         <SectionText>
-          I am a professional fullstack web engineer who has been working in
-          this area for more than 3 years. I efficiently solve my clients's
-          problems.
+          As a versatile Full-Stack Engineer, I have a proven track record of crafting innovative software solutions that drive business growth. My passion for technology and ability to work independently have enabled me to successfully deliver projects in fast-paced, remote environments.
           <br />
         </SectionText>
         <div
@@ -30,12 +27,13 @@ const Hero = (props) => (
           }}
         >
           <ButtonLink
-            href={`https://bit.ly/muhesi-cv-en`}
+            href='./RESUME_MUHESI_Moise_software_engineer.pdf'
+            download='./CV_MUHESI_MOISE_software_engineer.pdf'
             className=" text-center py-2 px-3 text-nowrap"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Leran More
+            Get resume
           </ButtonLink>
         </div>
 

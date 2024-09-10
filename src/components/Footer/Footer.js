@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineTwitter, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 
 
 import { SocialIcons } from '../Header/HeaderStyles';
@@ -35,7 +35,7 @@ const Footer = () => {
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons
-            href="https://www.linkedin.com/in/moise-muhesi-5102951bb/"
+            href="https://www.linkedin.com/in/moise-muhesi/"
             target="_blank"
             rel="noreferrer"
           >

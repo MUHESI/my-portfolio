@@ -22,6 +22,32 @@ export const Section = styled.section`
      flex-direction: column;
 `;
 
+export const Item = styled.p`
+  display: flex;
+  
+  @media ${(props) => props.theme.breakpoints.md} {
+    justify-content: center;
+    // padding: 24px 48px 0;
+    flex-direction: column;
+     padding-bottom:20px;
+  }
+  gap:20px;
+  margin-bottom:30px;
+  padding:5px;
+  // padding-bottom:55px;
+  box-shadow: 0 2px 4px rgba(80, 78, 78, 0.5);
+  // cursor-pointer
+
+  transition: 0.3s;
+
+  &:hover {
+    transition: 0.3s;
+    // transform: scale(0.98);
+    box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+    // cursor: pointer;
+  }
+`;
+
 export const SectionTitle = styled.h2`
   font-weight: 700;
   font-size: ${(props) => (props.main ? "65px" : "53px")};

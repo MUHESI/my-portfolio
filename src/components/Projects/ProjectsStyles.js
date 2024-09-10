@@ -45,10 +45,10 @@ export const BlogCard = styled.div`
   text-align: center;
   flex: 0 0 45%;
   padding: 5px;
+  transition: 0.3s;
 
   &:hover {
-    transition: 0.3s;
-    transform: scale(0.9);
+    transform: scale(0.99);
     transition: 0.3s;
     box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   }

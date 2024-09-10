@@ -1,5 +1,12 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
+import { TimeLineData } from "../../constants/constants";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
 import {
   CarouselButton,
   CarouselButtonDot,
@@ -11,13 +18,6 @@ import {
   CarouselItemTitle,
   CarouselMobileScrollNode,
 } from "./TimeLineStyles";
-import {
-  Section,
-  SectionDivider,
-  SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -46,7 +46,7 @@ const Timeline = () => {
       const index = Math.round(
         (carouselRef.current.scrollLeft /
           (carouselRef.current.scrollWidth * 0.7)) *
-          TimeLineData.length
+        TimeLineData.length
       );
 
       setActiveItem(index);
@@ -68,9 +68,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         <br />
-        My approach to software development is centered on continuous learning,
-        problem-solving, and leveraging the latest technologies. I am confident
-        in my ability to learn new languages and provide solutions.
+        My approach to software development is centered on continuous learning, problem-solving, and leveraging the latest technologies. I am confident in my ability to learn new languages and provide  effective  solutions.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

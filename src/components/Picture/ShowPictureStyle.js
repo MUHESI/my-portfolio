@@ -44,7 +44,7 @@ export const ButtonLink = styled.a`
   border: none;
   padding: 15px 30px;
   width: 150px;
-  margin: 0 10px;
+  // margin: 0 10px;
   border-radius: 50px;
   font-weight: 600;
   font-size: 1.3em;
@@ -69,4 +69,27 @@ export const Div1 = styled.div`
   flex: wrap;
   justify-content: center;
   align-items: center;
+`;
+
+
+export const ButtonLink2 = styled.a`
+  border: none;
+  padding: 7px 15px;
+  // width: 150px;
+  // margin: 0 10px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.3em;
+  // padding: 0 10px;
+  color: #fff;
+  background: linear-gradient(270deg, #ff622e 0%, #b133ff 100%);
+  cursor: pointer;
+  transition: 0.5s ease;
+  overflow: hidden;
+  opacity: 0.8;
+  &:hover {
+    transition: 0.3s;
+    opacity: 1;
+    cursor: pointer;
+  }
 `;

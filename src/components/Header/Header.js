@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
-import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
+import React, { useEffect, useState } from 'react';
+import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
@@ -54,6 +54,11 @@ const Header = () => {
             <NavLink>About</NavLink>
           </Link>
         </li>
+        <li>
+          <Link href="#blog">
+            <NavLink>Blog</NavLink>
+          </Link>
+        </li>
       </Div2>
       <Div3>
         <SocialIcons
@@ -63,7 +68,7 @@ const Header = () => {
           <AiFillGithub size="3rem" />
         </SocialIcons>
         <SocialIcons
-          href="https://www.linkedin.com/in/moise-muhesi-5102951bb/"
+          href="https://www.linkedin.com/in/moise-muhesi/"
           target="_blank"
           rel="noreferrer"
         >

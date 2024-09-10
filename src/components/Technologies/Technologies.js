@@ -6,19 +6,22 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import {
+  ItemTech,
   List,
   ListContainer,
   ListItem,
   ListParagraph,
   ListTitle,
   SpanIcon,
-  ItemTech,
 } from "./TechnologiesStyles";
 
 const technologies = {
-  front: ["Reactjs", "Nextjs", "Typescript", "Tailwind", "Shadcn/ui", "MUI"],
-  back: ["Nestjs", "Expresjs", "Typescript", "MongoDB", "MySql", "PostreSQL", "Redis"],
-  UxIX: ["AdobeXD ", "Figma", "Canva"],
+  front: ["Reactjs", "Nextjs", "Vite js", "Typescript", "Tailwind", "Shadcn/ui", "MUI"],
+  back: ["Nestjs", "Expresjs", "Typescript", "langchain", "LLM Models", "flask", "Django"],
+  db: ["MongoDB", "MySql", "PostreSQL", "Redis", "Sqlite"],
+  architecture: ["Monolith ", "Microservices", "Serveless", "Mono repo"],
+  deployment: ["VPS", "Nginx", "Apache2", "pm2", "Bash",],
+  other: ["RabitMq ", "Git Actions", "cron job", "websocket"],
 };
 
 const Technologies = () => (
@@ -66,10 +69,52 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Database</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            {technologies.UxIX.map((tech) => (
+            {technologies.db.map((tech) => (
+              <ItemTech>
+                <SpanIcon>&#10156;</SpanIcon>
+                <span>{tech}</span>
+              </ItemTech>
+            ))}
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Architecture</ListTitle>
+          <ListParagraph>
+            Experiece with <br />
+            {technologies.architecture.map((tech) => (
+              <ItemTech>
+                <SpanIcon>&#10156;</SpanIcon>
+                <span>{tech}</span>
+              </ItemTech>
+            ))}
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Deployment</ListTitle>
+          <ListParagraph>
+            Experiece with <br />
+            {technologies.deployment.map((tech) => (
+              <ItemTech>
+                <SpanIcon>&#10156;</SpanIcon>
+                <span>{tech}</span>
+              </ItemTech>
+            ))}
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Other</ListTitle>
+          <ListParagraph>
+            Experiece with <br />
+            {technologies.other.map((tech) => (
               <ItemTech>
                 <SpanIcon>&#10156;</SpanIcon>
                 <span>{tech}</span>
