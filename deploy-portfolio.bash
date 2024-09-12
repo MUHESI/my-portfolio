@@ -51,7 +51,7 @@ rm -rf .next
 echo '=========================================' 
 echo '7.  pm2 stop AND start portfolio...' 
 echo '=========================================' 
-pm2 restart portfolio   
+pm2 restart portfolio_mvm   
 pm2 list
 #pm2 monit
 echo '=============END===============' 

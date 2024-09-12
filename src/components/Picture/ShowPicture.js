@@ -1,13 +1,7 @@
 import React from "react";
 // import myImg from '../../../public/images/myPicture.png'
-import styled from "styled-components";
 
-import {
-  Section,
-  SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
-import { Button, ButtonLink, Container, Img, Div1 } from "./ShowPictureStyle";
+import { Container, Img } from "./ShowPictureStyle";
 
 const ShowPicuture = (props) => {
   const downloadFile = () => {
@@ -31,8 +25,8 @@ const ShowPicuture = (props) => {
     <>
       <Container>
         <Img
-          width={350}
-          src="https://res.cloudinary.com/chanel-muhesi/image/upload/v1676726074/porfolio/profile-pic_4_tolvjx.png"
+          width={340}
+          src="https://res.cloudinary.com/chanel-muhesi/image/upload/v1685518784/porfolio/profile-pic_1_mndgvo.png"
           alt="..."
         />
 
